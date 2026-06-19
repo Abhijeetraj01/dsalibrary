@@ -1,9 +1,12 @@
-import { HashTable } from "./structures/HashTable";
+import { BinarySearchTree } from "./structures/BinarySearchTree";
+const bst = new BinarySearchTree();
 
-const table = new HashTable<string, number>();
+bst.insert(50);
+bst.insert(30);
+bst.insert(70);
+bst.insert(60);
+bst.insert(80);
 
-table.set("abc", 1);
-table.set("cab", 2);
+bst.delete(70);
 
-console.log(table.get("abc"));
-console.log(table.get("cab"));
+bst.inOrder();;
