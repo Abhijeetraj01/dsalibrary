@@ -1,9 +1,9 @@
-import { bubbleSort } from "./algorithms/sorting/BubbleSort";
-import { insertionSort } from "./algorithms/sorting/InsertionSort";
-import { mergeSort } from "./algorithms/sorting/MergeSort";
-import { quickSort } from "./algorithms/sorting/QuickSort";
-import { selectionSort } from "./algorithms/sorting/SelectionSort";
+import { binarySearch } from "./algorithms/searching/BinarySearch";
+import { linearSearch } from "./algorithms/searching/LinearSearch";
 
 console.log(
-    quickSort([38, 27, 43, 3, 9, 82, 10])
+    binarySearch(
+        [10, 20, 25, 30, 40],
+        25
+    )
 );
