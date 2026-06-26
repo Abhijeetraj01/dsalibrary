@@ -9,7 +9,7 @@ export * from "./structures/AVLTree";
 export * from "./structures/MaxHeap";
 export * from "./structures/Graph";
 export * from "./structures/UnionFind";
-export * from "./structures/Trie";
+export * from "./structures/trie";
 
 // Sorting Algorithms
 
